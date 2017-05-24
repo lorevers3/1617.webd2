@@ -1,8 +1,7 @@
 <!DOCTYPE html SYSTEM "about:legacy-compat"> 
 <html dir="ltr" lang="nl-be" class="no-js" prefix="og: http://ogp.me/ns#">
   <head>
-    <link rel="stylesheet" href="css/main.css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styleguide.css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
     <!-- Character encoding -->
 	  <meta charset="UTF-8"> 
 	  <!-- Latest version of rendering engine -->
@@ -10,7 +9,7 @@
     <!-- Mobile Viewport -->
 	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Most important SEO tag -->
-    <title>HTML5 | Webdesign II | GDM</title>
+    <title>Lore Verstraete | Webdesign II | Styleguide</title>
     <!-- Other SEO friendly tags -->	
     <meta name="description" content="Lees hier alles over nieuwe media, html5 en andere ontwikkelingen in webdevelopment en mobile development. De docenten NMD willen graag hun kennis delen met jou!">
     <meta name="keywords" content="HTML5, JavaScript, jQuery, CSS3">
@@ -46,19 +45,20 @@
     <!-- Stylesheets: Vendors -->
     <link rel="stylesheet" media="all" href="vendor/normalize/normalize.css">
     <!-- Stylesheets: App -->
-    <link rel="stylesheet" media="all" href="css/gird.css">
     <link rel="stylesheet" media="all" href="css/fonts.css">
+     <link rel="stylesheet" media="all" href="css/grid.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
-    <link rel="stylesheet" media="all" href="css/main.css">
+    <link rel="stylesheet" href="css/styleguide.css">
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
-    <!--<script src="js/main.js"></script> -->
+  </head>
 
-    
- 
+  <body>
+   
 
-
-  <header class="startpagina">
+<header class="style-tile">
+        <div class="Bureaufoto"><img src=_img/bureaufoto.jpg alt="Dit is een placeholderafbeelding" width="960px"></div>
+        </header>
     <nav role="navigatie">
     <ul class="nav">
       <li><a class="knopA" href="overons.html">Over ons</a></li>
@@ -69,39 +69,95 @@
     </ul> 
     </nav>
   </head>
+            
+   
+    <main class="style-tile" role="main">
+        <article class="style-tile">
+            <h1 class="style-tile">Typografie</h1>
+            <!-- inhoud -->
+            <h2> Dit is de hoofdtitel</h2>
+            <h3> Dit is de subtitel </h3>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Optio voluptate reprehenderit asperiores, possimus delectus 
+                aspernatur culpa. Necessitatibus voluptatibus pariatur, 
+                non delectus explicabo natus nulla. Maiores officia laborum 
+                quas, eaque necessitatibus.</p>
 
-  <body>
-<div class="foto"><img src="_img/bureaufoto.jpg" width="1500px" alt="Foto bureau"></div>
-    <!-- Scripts: Vendors -->
-      <!-- For example: jQuery, lodash, handlebars, ... -->
-    <!-- Scripts: App -->
-  
-    
+            <p>Quidem corporis, alias exercitationem sunt quo aspernatur ut! 
+                Ducimus facilis maiores, fugiat hic architecto tempore provident 
+                porro eos consequuntur, voluptatem assumenda veritatis esse 
+                dignissimos reiciendis repellat maxime nesciunt quod animi!</p>
+            
+            <p>Dit is een <a href="#">gewone koppeling</a> in een doorlopende tekst.</p>
+            <!-- einde inhoud -->
+            <table class="style-tile">
+                <thead>
+                    <tr>
+                        <th colspan="2" class="titeltabel">Lettertypen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Koppen</th>
+                        <td><a href="https://fonts.googleapis.com/css?family=Baloo_Bhaina" target="_blank">Baloo Bhaina</a></td>
+                    </tr>
+                    <tr>
+                        <th>Tekst</th>
+                        <td><a href="https://fonts.google.com/specimen/Lato" target="_blank">Lato</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <aside class="style-tile">
+            <h2 class="style-tile">Mogelijke kleuren</h2>
+            <div class="colours clearfix">
+                <div class="colours__colour colours__colour--a"></div>
+                <div class="colours__colour colours__colour--b"><code></code></div>
+                <div class="colours__colour colours__colour--c"></div>
+                <div class="colours__colour colours__colour--d"></div>
+                <div class="colours__colour colours__colour--e"></div>
+                <div class="colours__colour colours__colour--f"></div>
+                
+                
+            </div>
+            <h2 class="style-tile">Mogelijke patronen</h2>
+            <div class="patterns clearfix">
+                <div class="patterns__pattern patterns__pattern--a"></div>
+                <div class="patterns__pattern patterns__pattern--b"></div>
+                
+            </div>
+            <h2 class="style-tile">Knoppen</h2>
+            <p>
+               <a href="#" class="button button--primary">Over ons</a>
+        </aside>
+    </main>
+
   </body>
+
 <div class="footer-wrapper">
 	<div class="grid__container">
 		<div class="grid__row">
 			<div class="grid__column-12">
 				<footer class="footer">
 					<div class="grid__row">
-						<div class="grid__column-8">
-              <div class="grid__column-4">
-              <br>
-							Adres: Aalterstraat 95 8755 Ruiselede <br>
-							Tel.: 0470861113
+						<div class="grid__column-12">
+              <div class="grid__column-5">
+              
+							Adres: Aalterstraat 95 8755 Ruiselede 
+							<br>
+                            Tel.: 0470861113
 						</div>
             <div class="grid__column-12">
-            <br>Copyright Lore Verstraete. Deze website is gemaakt als opdracht voor Webdesign II Arteveldehogeschool Mariakerke.
+            <br>© Copyright Lore Verstraete. Deze website is gemaakt als opdracht voor Webdesign II Arteveldehogeschool Mariakerke.
             </div>
-						</div>
+			</div>
             <br>
-            <br>
+            
 					</div>
 				</footer>
 			</div>
 		</div>
 	</div>
 </div>
-
-
 </html>
