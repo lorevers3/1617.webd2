@@ -1,5 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
 * {
   box-sizing: border-box;
+}
+.grid__column-8
+{
+    margin-left: 40px;
+}
+.nav li {
+  text-decoration: none;
+  display: inline;
+  left: 1000px;
+  
+}
+
+h1{
+    font-family: 'Merriweather';
+    color:rgb(253,114,125);
+    font-size: 45pt;
+    text-align: center;
+}
+
+h2{
+    font-family:'Lato';
+    font-size: 35px;
+    display: inline;
+    color: rgb(217,236,241);
+    margin-left: 100px;
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-family:'Lato';
+    font-weight: light;
 }
 
 html, body {
@@ -8,21 +43,98 @@ html, body {
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
-  background-size: cover;
-
-  color: rgba(232,234,246 ,1);
+  background-color: rgb(3,46,63);
 }
 
-.intro {
-  width: 90vw;
+.knopA
+{
 
-  padding: 1rem;
-  margin-top: 1rem;
-
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
+    display: inline-block;
+    font-family:'Baloo Bhaina';
+    font-size: 20pt;
+    padding: .25em .5em;
+    text-decoration: none;
+    color: rgb(39,166,182);
+    width:20%;
+    text-align: center;
 }
+
+.knopA:hover {
+    background-color:    rgb(39,166,182);
+    border-bottom-color: rgb(39,166,182);
+    color: #FFF;
+}
+    
+.knopB
+{
+
+    display: inline-block;
+    font-family:'Baloo Bhaina';
+    font-size: 20pt;
+    padding: .25em .5em;
+    text-decoration: none;
+    color: rgb(39,166,182);
+    width:20%;
+    text-align: center;
+}
+
+.knopB:hover {
+    background-color:    rgb(39,166,182);
+    border-bottom-color: rgb(39,166,182);
+    color: #FFF;
+}
+
+.knopD
+{
+   
+    display: inline-block;
+    font-family:'Baloo Bhaina';
+    font-size:20pt;
+    padding: .25em .5em;
+    text-decoration: none;
+    color: rgb(39,166,182);
+    width:20%;
+    text-align: center;
+}
+
+.knopD:hover {
+    background-color:    rgb(39,166,182);
+    border-bottom-color: rgb(39,166,182);
+    color: #FFF;
+}
+.knopE
+{
+    display: inline-block;
+    font-family:'Baloo Bhaina';
+    font-size: 20pt;    
+    padding: .25em .5em;
+    text-decoration: none;
+    color: rgb(39,166,182);
+    width:20%;
+    text-align: center;
+}
+
+.knopE:hover {
+    background-color:    rgb(39,166,182);
+    border-bottom-color: rgb(39,166,182);
+    color: #FFF;
+}
+
+.footer {
+    clear: both;
+    margin: auto;
+    width: 100%;
+    color: white;
+    background-color: rgb(252,67,82);
+    font-family: 'Lato';
+}
+
+.foto
+{
+    opacity: 0.70;}
+
+.grid__column-6
+{text-align:right;}
+
+.logo
+{width:25%;}

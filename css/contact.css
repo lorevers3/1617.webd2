@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
+.containergrotefoto
+{
+    background-image: url(../assets/_img/bureaufoto3.psd);    
+    height: 400px;
+    margin:40px 20px 40px 0px auto;
+    text-align: center;
+    position: relative;
+    font-family: 'Baloo Bhaina';
+    color: white;
+    font-size:15pt;
+    
+    }
+
+
+
+    
+
+

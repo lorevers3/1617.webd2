@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+* {
+  box-sizing: border-box;
+  }
+.footer-wrapper
+{
+    margin-bottom: none;
+}
+.footer {
+    clear: both;
+    margin: auto;
+    width: 100%;
+    color: white;
+    background-color: rgb(252,67,82);
+}
+
+.linkA{
+     display: inline-block;
+    font-family:'Baloo Bhaina';
+    font-size: 20pt;
+    padding: .25em .5em;
+    text-decoration: none;
+    color: rgb(217,236,241);
+    width:25%;
+    text-align: center;
+}
+
+.linkB{
+     display: inline-block;
+    font-family:'Baloo Bhaina';
+    font-size: 20pt;
+    padding: .25em .5em;
+    text-decoration: none;
+    color: rgb(217,236,241);
+    width:20%;
+    text-align: center;
+}
+
+.linkC
+{
+     display: inline-block;
+    font-family:'Baloo Bhaina';
+    font-size: 20pt;
+    padding: .25em .5em;
+    text-decoration: none;
+    color: rgb(217,236,241);
+    width:20%;
+    text-align: center;
+}
+
+.hand
+{margin-left: 130px;}
+
+.mannen
+{margin-left: 180px;}
+
+.locatie
+{margin-left: 220px;}

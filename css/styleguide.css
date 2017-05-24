@@ -1,0 +1,301 @@
+/* 1. BASE: basisstijlen van de HTML-elementen */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+.nav li {
+  text-decoration: none;
+  display: inline;
+  left: 1000px;
+  color: rgb(39,166,182);
+  
+}
+.knopA
+{
+
+    display: inline-block;
+    font-family:'Baloo Bhaina';
+    font-size: 20pt;
+    padding: .25em .5em;
+    text-decoration: none;
+    color: rgb(39,166,182);
+    width:20%;
+    text-align: center;
+}
+
+.knopA:hover {
+    background-color:    rgb(39,166,182);
+    border-bottom-color: rgb(39,166,182);
+    color: #FFF;
+}
+    
+.knopB
+{
+
+    display: inline-block;
+    font-family:'Baloo Bhaina';
+    font-size: 20pt;
+    padding: .25em .5em;
+    text-decoration: none;
+    color: rgb(39,166,182);
+    width:20%;
+    text-align: center;
+}
+
+.knopB:hover {
+    background-color:    rgb(39,166,182);
+    border-bottom-color: rgb(39,166,182);
+    color: #FFF;
+}
+
+.knopD
+{
+   
+    display: inline-block;
+    font-family:'Baloo Bhaina';
+    font-size:20pt;
+    padding: .25em .5em;
+    text-decoration: none;
+    color: rgb(39,166,182);
+    width:20%;
+    text-align: center;
+}
+
+.knopD:hover {
+    background-color:    rgb(39,166,182);
+    border-bottom-color: rgb(39,166,182);
+    color: #FFF;
+}
+.knopE
+{
+    display: inline-block;
+    font-family:'Baloo Bhaina';
+    font-size: 20pt;    
+    padding: .25em .5em;
+    text-decoration: none;
+    color: rgb(39,166,182);
+    width:20%;
+    text-align: center;
+}
+
+.knopE:hover {
+    background-color:    rgb(39,166,182);
+    border-bottom-color: rgb(39,166,182);
+    color: #FFF;
+}
+
+h1.style-tile,
+h2.style-tile
+{
+    color: white;
+    font-size: 20pt;
+    font-family: 'Baloo Bhaina';
+    font-size: 15px;
+    text-align: left;
+}
+h3.style-tile,
+h4.style-tile,
+h5.style-tile,
+h6.style-tile {
+    color: white;
+    font-size: 25px;
+    font-family: 'Baloo Bhaina';
+    text-align: left;
+}
+
+
+article.style-tile p.style-tile,
+footer.style-tile p {
+    font-family: inherit;
+    
+}
+
+body > footer a,
+body > footer a:visited {
+    color: #00F;
+}
+.footer {
+    clear: both;
+    margin: auto;
+    width: 100%;
+    color: white;
+    background-color: rgb(252,67,82);
+    font-family: 'Lato',regular;
+   
+}
+
+/* http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+
+/* 2. COMPONENTS: onderdelen, worden in de algemene lay-out geplaatst */
+
+.colours__colour {
+    background-color: #EEE;
+    border: .25rem solid #FFF;
+    box-shadow: 0 0 1px #000;
+    float: left;
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.colours__colour + .colours__colour {
+    margin-left: 1rem;
+}
+
+
+.patterns__pattern {
+    
+    border: .25rem solid #FFF;
+    box-shadow: 0 0 1px #000;
+    float: left;
+    height: 8.5rem;
+    width: 8.5rem;
+}
+.patterns__pattern + .patterns__pattern {
+    margin-left: 1rem;
+}
+
+/* 3. LAYOUT: algemene lay-out */
+
+header.style-tile,
+main.style-tile,
+footer.style-tile {
+    clear: both;
+    margin: auto;
+    max-width: 60rem;
+}
+
+article.style-tile,
+aside.style-tile {
+    float: left;
+    width: 29rem;
+}
+aside.style-tile {
+    margin-left: 2rem;
+}
+/* 1. BASE: basisstijlen van de HTML-elementen */
+
+/* Typografie */
+
+
+body{
+    background-color: rgb(3,46,63);}
+
+h2{
+font-family: 'Merriweather';
+font-weight:bold;
+color: rgb(253,114,125);
+font-size: 47pt;}
+
+h3
+{
+font-family: 'Baloo Bhaina';
+font-style:bold;
+font-size: 27pt;
+color: rgb(217,236,241);}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: regular;
+    line-height: 1.5;
+    color: rgb(255,255,255)
+}
+
+th {
+    color: white;
+    text-align:left;
+}
+.titeltabel {
+    color: white;
+    font-family: 'Baloo Bhaina';
+    font-style: regular;
+    font-size: 12pt;
+}
+
+/* Hyperlinks */
+a,
+a:visited {
+    color: rgb(39,166,182);
+    text-decoration: none;
+}
+a:hover {
+    color:rgb(253,114,125 );
+    text-decoration: none;
+}
+
+/* 2. COMPONENTS: onderdelen, worden in de algemene lay-out geplaatst */
+
+/* Knoppen */
+
+.button--primary,
+.button--primary:active,
+.button--primary:visited {
+    background-color:     rgb(3,46,63);
+    border-bottom-color:  rgb(3,46,63);
+    color:rgb(39,166,182);
+    border-style: solid;
+    border-width: 0 0 .25em;
+    display: inline-block;
+    font-family: 'Baloo Bhaina';
+    padding: .25em .5em;
+    text-decoration: none;
+    text-align: center;;
+}
+.button--primary:hover {
+    background-color:     rgb(39,166,182);
+    border-bottom-color:  rgb(39,166,182);
+    color: #FFF;
+    text-decoration: none
+}
+
+
+/* Kleuren */
+.colours__colour--a {
+    background-color: rgb(3,46,63);
+}
+.colours__colour--b {
+    background-color:rgb(39,166,182);
+}
+.colours__colour--c {
+    background-color:rgb(217,236,241);
+}
+.colours__colour--d {
+    background-color: rgb(252,67,82);
+}
+.colours__colour--e {
+    background-color: rgb(253,114,125);
+}
+.colours__colour--fÒ {
+    background-color: rgb(255,255,255);
+}
+
+
+
+/* Patronen */
+.patterns__pattern--a {
+    background-image: url(../_img/logokleur.png/);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130px;
+    
+}
+.patterns__pattern--b {
+    background-image: url(../_img/logozw.png/);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+}
+.patterns__pattern--c {
+    background-image: url(http://lorempixel.com/600/700/);
+}
+
+
+
+
+

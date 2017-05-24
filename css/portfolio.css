@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+body
+{background-color: white;}
+.portfolio1
+{
+    margin-left:200px;
+    margin-right:50px;
+    display:inline-block;
+}
+
+.portfolio1:hover
+{
+    opacity: 0.75;
+}
+.portfolio2
+{
+    margin-left:50px;
+    margin-right:50px;
+    display:inline-block;
+}
+.portfolio2:hover
+{
+    opacity: 0.75;
+}
+.portfolio3
+{
+    margin-left:50px;
+    margin-right:50px;
+    display:inline-block;
+}
+.portfolio4
+{
+    margin-left:200px;
+    margin-right:50px;
+    margin-top: 10px;
+    display:inline-block;
+}
+
+.portfolio5
+{
+    margin-left:10px;
+    margin-right:50px;
+    margin-top: 10px;
+    display:inline-block;
+}
+.portfolio6
+{
+    margin-left:200px;
+    margin-right:50px;
+    margin-top: 10px;
+    display:inline-block;
+}
+.portfolio7
+{
+    margin-right:50px;
+    margin-top: 10px;
+    display:inline-block;
+}
+.portfolio8
+{
+    margin-left:200px;
+    margin-right:50px;
+    margin-top: 10px;
+    display:inline-block;
+}
+.portfolio9
+{
+    margin-right:50px;
+    margin-top: 10px;
+    display:inline-block;
+}
+.portfolio10
+{
+    margin-left:200px;
+    margin-right:50px;
+    margin-top: 10px;
+    display:inline-block;
+}
+
+.portfolio11
+{
+    margin-right:50px;
+    margin-top: 10px;
+    display:inline-block;
+}
+
+.portfolio12
+{
+    margin-left:200px;
+    margin-right:50px;
+    margin-top: 10px;
+    display:inline-block;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
+
+.socialmediaA
+{width:20%;
+padding-left: 180px;
+padding-top: 20px;
+display: inline-block
+;}
+
+.socialmediaA:hover{
+    opacity: 0.75;
+}
+
+.socialmediaB
+{width:20%;
+padding-left: 280px;
+padding-top: 20px;
+display:inline-block;}
+
+.socialmediaB:hover{
+    opacity: 0.75;
+}
+
+.socialmediaC
+{width:20%;
+padding-left:380px;
+padding-top: 20px;
+display:inline-block;}
+
+.socialmediaC:hover{
+    opacity: 0.75;
+}
