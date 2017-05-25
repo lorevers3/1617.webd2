@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
 
+body
+{
+    background-color: rgb(255,255,255);
+}
+
 .logowolf{
     padding-left: 430px;
 }

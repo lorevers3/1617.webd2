@@ -279,14 +279,14 @@ a:hover {
 
 /* Patronen */
 .patterns__pattern--a {
-    background-image: url(../_img/logokleur.png/);
+    background-image: url(assets/images/logokleur.png/);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 130px;
     
 }
 .patterns__pattern--b {
-    background-image: url(../_img/logozw.png/);
+    background-image: url(assets/images/logozw.png/);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 150px;

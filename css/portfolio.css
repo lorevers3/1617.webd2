@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
 body
 {background-color: white;}
+
 .portfolio1
 {
     margin-left:200px;
@@ -24,6 +25,7 @@ body
 {
     opacity: 0.75;
 }
+
 .portfolio3
 {
     margin-left:50px;
