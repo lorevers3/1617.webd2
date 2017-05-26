@@ -130,7 +130,7 @@ body {
     background-color: rgb(252,67,82);
     font-family: 'Lato';
     bottom: 0px;
-    position:fixed;
+    position:relative;
 }
 
 .foto
