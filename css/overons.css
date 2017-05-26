@@ -55,10 +55,13 @@
 }
 
 .hand
-{margin-left: 130px;}
+{margin-left: 130px;
+margin-bottom:50px;}
 
 .mannen
-{margin-left: 180px;}
+{margin-left: 180px;
+margin-bottom:50px;}
 
 .locatie
-{margin-left: 220px;}
+{margin-left: 220px;
+margin-bottom;}
