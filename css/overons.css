@@ -4,13 +4,9 @@
 * {
   box-sizing: border-box;
   }
-.footer-wrapper
-{
-    margin-bottom: none;
-}
+
 .footer {
     clear: both;
-    margin: auto;
     width: 100%;
     color: white;
     background-color: rgb(252,67,82);
