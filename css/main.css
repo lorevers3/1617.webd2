@@ -47,7 +47,7 @@ body {
 }
 .iconen
 {
-    margin-left:570px;
+    margin-left:550px;
 }
 .knopA
 {
@@ -137,7 +137,8 @@ body {
 
 .foto
 {
-    opacity: 0.70;}
+    opacity: 0.70;
+      margin-bottom:50px;}
 
 .grid__column-6
 {text-align:right;}
