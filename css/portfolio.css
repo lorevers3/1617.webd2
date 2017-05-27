@@ -5,9 +5,10 @@ body
 {background-color: white;}
 .footer
 {position:absolute;}
+
 .portfolio1
 {
-    margin-left:230px;
+    margin-left:270px;
     margin-right:50px;
     display:inline-block;
 }
@@ -35,7 +36,7 @@ body
 }
 .portfolio4
 {
-    margin-left:230px;
+    margin-left:270px;
     margin-right:50px;
     margin-top: 10px;
     display:inline-block;
@@ -50,7 +51,7 @@ body
 }
 .portfolio6
 {
-    margin-left:230px;
+    margin-left:270px;
     margin-right:50px;
     margin-top: 10px;
     display:inline-block;
@@ -63,14 +64,14 @@ body
 }
 .portfolio8
 {
-    margin-left:230px;
+    margin-left:270px;
     margin-right:0px;
     margin-top: 10px;
     display:inline-block;
 }
 .portfolio9
 {
-    margin-left:230px;
+    margin-left:270px;
     margin-right:50px;
     margin-top: 30px;
     display:inline-block;
