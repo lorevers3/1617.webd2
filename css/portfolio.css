@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
 body
 {background-color: white;}
-
+.footer
+{position:absolute;}
 .portfolio1
 {
     margin-left:230px;
