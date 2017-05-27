@@ -32,7 +32,7 @@
 
 .linkC
 {
-     display: inline-block;
+    display: inline-block;
     font-family:'Baloo Bhaina';
     font-size: 20pt;
     padding: .25em .5em;
@@ -40,7 +40,6 @@
     color: rgb(217,236,241);
     width:20%;
     text-align: center;
-    margin-left: 50px;
 }
 
 .hand
@@ -52,5 +51,5 @@ margin-bottom:100px;}
 margin-bottom:130px;}
 
 .locatie
-{margin-left: 230px;
-margin-bottom:20px;}
+{margin-left: 200px;
+;}
