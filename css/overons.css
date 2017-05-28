@@ -16,7 +16,7 @@
     width:25%;
     text-align: center;
   
-}
+} 
 
 .linkB{
      display: inline-block;
@@ -43,13 +43,13 @@
 }
 
 .hand
-{margin-left: 150px;
+{margin-left: 130px;
 margin-bottom:100px;}
 
 .mannen
-{margin-left: 200px;
+{margin-left: 190px;
 margin-bottom:130px;}
 
 .locatie
-{margin-left: 300px;
+{margin-left: 250px;
 margin-bottom:100px;}
